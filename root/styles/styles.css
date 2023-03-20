@@ -1,40 +1,216 @@
-body {
-    height: 125vh;
-    margin-top: 80px;
-    padding: 30px;
-    background-size: cover;
-    font-family: sans-serif;
-}
-
 header {
-    background-color: #306BB3;
+    box-sizing: border-box;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0px;
     width: 1440px;
     height: 100px;
-    display: flex;
-    align-items: center;
+    left: 0px;
+    top: 0px;
+    background: #306BB3;
+    border: 1px solid #306BB3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 header * {
     display: inline;
 }
 
-header li {
-    margin: 20px;
-}
-
-header li a {
+a {
     color: white;
     text-decoration: none;
 }
 
-#logo {
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 383px;
+    left: 1px;
+    top: 833px;
+
+    background: #306BB3;
+}
+
+.logostyle {
     position: absolute;
     width: 150px;
     height: 55px;
     left: 58px;
     top: 23px;
+}
+
+.homestyle {
+    position: absolute;
+    width: 99.24px;
+    height: 24px;
+    left: 793px;
+    top: 38px;
+}
+
+.buycardsstyle {
+    position: absolute;
+    width: 113.96px;
+    height: 24px;
+    left: 924px;
+    top: 38px;
+}
+
+.ourblogstyle {
+    position: absolute;
+    width: 87.33px;
+    height: 24px;
+    left: 1069px;
+    top: 38px;
+}
+
+.textoizquierda {
+    position: absolute;
+    width: 574.66px;
+    height: 406px;
+    left: 61px;
+    top: 286px;
+}
+
+.imagenderecha {
+    position: absolute;
+    width: 638px;
+    height: 508px;
+    left: 743px;
+    top: 226px;
+}
+
+.primertexto {
+    position: absolute;
+    width: 350.56px;
+    height: 20.89px;
+    left: 61px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 121.2%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+}
+
+.segundotexto {
+    position: absolute;
+    width: 574.66px;
+    height: 158.35px;
+    left: 61px;
+    top: 330.35px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 121.2%;
+    /* or 48px */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #1A202C;
+
+}
+
+.tercertexto {
+    position: absolute;
+    width: 534px;
+    height: 142.96px;
+    left: 61px;
+    top: 480px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #1A202C;
+
+    opacity: 0.45;
+}
+
+.cuartotexto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+
+    position: absolute;
+    width: 150px;
+    height: 48.39px;
+    right: 1229px;
+    top: 643.61px;
+    left: 61px;
+
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.quintotexto {
+    position: absolute;
+    width: 106.97px;
+    height: 26.39px;
+    left: 243.51px;
+    top: 654.61px;
+
+    /* Semibold/Type@16
+
+The quick brown fox jumps over the lazy dog
+*/
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* Black */
+
+    color: #1A202C;
+
+}
+
+.darkmodestyle {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 1301px;
+    top: 40px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
 }
