@@ -1,21 +1,25 @@
-header {
+.headerstyle {
     box-sizing: border-box;
+
     position: absolute;
     width: 1440px;
     height: 100px;
     left: 0px;
     top: 0px;
+
     background: #306BB3;
     border: 1px solid #306BB3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
-* {
+.bodystyle {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-header * {
-    display: inline;
+/* no esta en figma */
+li {
+    list-style-type: none;
 }
 
 a {
@@ -212,5 +216,214 @@ The quick brown fox jumps over the lazy dog
     display: flex;
     align-items: center;
     letter-spacing: -0.03em;
+
+}
+
+.logofooter {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 56px;
+    top: 68px;
+
+}
+
+.textofooter1 {
+    position: absolute;
+    width: 292px;
+    height: 48px;
+    left: 60px;
+    top: 166px;
+    color: white;
+}
+
+.textoabout {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 624px;
+    top: 67px;
+
+    /* Semibold/Type@20
+    
+    The quick brown fox jumps over the lazy dog
+    */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+
+}
+
+.textocommunity {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 893px;
+    top: 67px;
+
+    /* Semibold/Type@20
+
+The quick brown fox jumps over the lazy dog
+*/
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.textosocials {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 1229.71px;
+    top: 67px;
+
+    /* Semibold/Type@20
+
+The quick brown fox jumps over the lazy dog
+*/
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+
+}
+
+.textoabout2 {
+    position: absolute;
+    width: 152px;
+    height: 188px;
+    left: 624px;
+    top: 123px;
+
+    /* Medium/Type@16
+
+The quick brown fox jumps over the lazy dog
+*/
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.textocommunity2 {
+    position: absolute;
+    width: 141px;
+    height: 188px;
+    left: 893px;
+    top: 123px;
+
+    /* Medium/Type@16
+
+The quick brown fox jumps over the lazy dog
+*/
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+
+}
+
+.textosocials2 {
+    position: absolute;
+    width: 152px;
+    height: 188px;
+    left: 1229.71px;
+    top: 123px;
+
+    /* Medium/Type@16
+
+The quick brown fox jumps over the lazy dog
+*/
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.logofacebook {
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 60px;
+    top: 262px;
+}
+
+.logotwitter {
+    position: absolute;
+    left: 7.89%;
+    right: 89.78%;
+    top: 68.41%;
+    bottom: 22.82%;
+
+}
+
+.logoinstagram {
+    position: absolute;
+    left: 11.61%;
+    right: 86.06%;
+    top: 68.41%;
+    bottom: 22.82%;
 
 }
