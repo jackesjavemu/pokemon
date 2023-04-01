@@ -1,14 +1,10 @@
 .headerstyle {
-  height: 30vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 5%;
-
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
     background: #306BB3;
-    border: 1px solid #306BB3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 * {
@@ -16,8 +12,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
-  
+}
+
+.mainindex {
+    display: flex;
+    padding: 5%;
+    color: #1A202C;
+}
+
+
+.headerul {
+    display: flex;
+    gap: 40px;
+}
+
 /* no esta en figma */
 li {
     list-style-type: none;
@@ -28,380 +36,144 @@ a {
     text-decoration: none;
 }
 
-.footer {
+footer {
     padding: 5%;
+    background-color: #306BB3;
     display: flex;
     justify-content: space-between;
-
-    background: #306BB3;
 }
 
-.logostyle {
-    position: absolute;
-    width: 150px;
-    height: 55px;
-    left: 58px;
-    top: 23px;
-}
-
-.homestyle {
-    position: absolute;
-    width: 99.24px;
-    height: 24px;
-    left: 793px;
-    top: 38px;
-}
-
-.buycardsstyle {
-    position: absolute;
-    width: 113.96px;
-    height: 24px;
-    left: 924px;
-    top: 38px;
-}
-
-.ourblogstyle {
-    position: absolute;
-    width: 87.33px;
-    height: 24px;
-    left: 1069px;
-    top: 38px;
-}
-
-.textoizquierda {
-    position: absolute;
-    width: 574.66px;
-    height: 406px;
-    left: 61px;
-    top: 286px;
-}
-
-.imagenderecha {
-    position: absolute;
-    width: 638px;
-    height: 508px;
-    left: 860px;
-    top: 226px;
-}
-
-.primertexto {
-    position: absolute;
-    width: 350.56px;
-    height: 20.89px;
-    left: 61px;
-    top: 286px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 121.2%;
-    /* or 19px */
-
-    display: flex;
-    align-items: center;
-}
-
-.segundotexto {
-    position: absolute;
-    width: 574.66px;
-    height: 158.35px;
-    left: 61px;
-    top: 330.35px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 121.2%;
-    /* or 48px */
-
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
-    /* Black */
-
-    color: #1A202C;
-
-}
-
-.tercertexto {
-    position: absolute;
-    width: 534px;
-    height: 142.96px;
-    left: 61px;
-    top: 480px;
-
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 160%;
-    /* or 26px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-
-    color: #1A202C;
-
-    opacity: 0.45;
-}
-
-.cuartotexto {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-    gap: 8px;
-
-    position: absolute;
-    width: 150px;
-    height: 48.39px;
-    right: 1229px;
-    top: 643.61px;
-    left: 61px;
-
-
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-}
-
-.quintotexto {
-    position: absolute;
-    width: 106.97px;
-    height: 26.39px;
-    left: 243.51px;
-    top: 654.61px;
-
-    /* Semibold/Type@16
-
-The quick brown fox jumps over the lazy dog
-*/
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-
-    /* Black */
-
-    color: #1A202C;
-
-}
-
-.darkmodestyle {
-    position: absolute;
-    width: 87px;
-    height: 38px;
-    left: 1295px;
-    top: 31px;
-    border:solid;
-
-    background: #FFFFFF;
-    border-radius: 4px;
-
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 150%;
-    /* identical to box height, or 21px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.03em;
-
-    color: #306BB3;
-
-}
-
-.logofooter {
-    width: 150px;
-    height: 55px;
-    left: 56px;
-    top: 68px;
-
-}
-
-.textofooter1 {
-    width: 292px;
-    height: 48px;
-    left: 60px;
-    top: 166px;
-    color: white;
-}
-
-.textoabout {
+.footerdiv1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
     color: white;
-
 }
 
-.textocommunity {
-    width: 152px;
-    height: 32px;
-    left: 893px;
-    top: 67px;
+.footerdiv2 {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
 
-    /* Semibold/Type@20
+.footerlinks>p {
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
 
-The quick brown fox jumps over the lazy dog
-*/
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
+.footerlinks>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.maincards {
+    justify-content: space-between;
+    padding: 5%;
+    color: #1A202C;
+}
+
+.indexcontainer {
+    width: 50%;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.indexcontainer>h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links>a {
+    color: #1a202c;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: initial;
+}
+
+
+
+main>h2 {
+    text-align: center;
+    color: #486284;
+    font-size: 3rem;
+  }
+  
+  main>p {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .container_select_type {
+    margin: 30px;
+    height: 70px;
+    display: flex;
+    border-bottom: 1px solid #90A3BF;
+    align-items: center;
+  }
+  
+  .container_select_type>div {
+    width: calc(100% / 4);
+    text-align: center;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: #DEE5ED;
+    width: calc(90% / 4);
+    height: 400px;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+  }
+  
+  .card>div>p {
+    color: #1A202C;
+    font-weight: bolder;
+    text-transform: initial;
+  }
+  
+  
+  .card>picture {
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card>div>button{
+    width: 45%;
+    height: 100%;
+    background-color: var(--primaryColor);
+    border: none;
+    color: #fff;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 150%;
-    /* or 30px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
-
-    mix-blend-mode: normal;
-}
-
-.textosocials {
-    width: 152px;
-    height: 32px;
-    left: 1229.71px;
-    top: 67px;
-
-    /* Semibold/Type@20
-
-The quick brown fox jumps over the lazy dog
-*/
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 150%;
-    /* or 30px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
-
-    mix-blend-mode: normal;
-
-}
-
-.textoabout2 {
-    width: 152px;
-    height: 188px;
-    left: 624px;
-    top: 123px;
-
-    /* Medium/Type@16
-
-The quick brown fox jumps over the lazy dog
-*/
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
-
-    mix-blend-mode: normal;
-}
-
-.textocommunity2 {
-    position: absolute;
-    width: 141px;
-    height: 188px;
-    left: 893px;
-    top: 123px;
-
-    /* Medium/Type@16
-
-The quick brown fox jumps over the lazy dog
-*/
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
-
-    mix-blend-mode: normal;
-
-}
-
-.textosocials2 {
-    position: absolute;
-    width: 152px;
-    height: 188px;
-    left: 1229.71px;
-    top: 123px;
-
-    /* Medium/Type@16
-
-The quick brown fox jumps over the lazy dog
-*/
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
-
-    mix-blend-mode: normal;
-}
-
-.logofacebook {
-    position: absolute;
-    left: 60px;
-    top: 262px;
-}
-
-.logotwitter {
-    position: absolute;
-    left: 7.89%;
-    right: 89.78%;
-    top: 68.41%;
-    bottom: 22.82%;
-
-}
-
-.logoinstagram {
-    position: absolute;
-    left: 11.61%;
-    right: 86.06%;
-    top: 68.41%;
-    bottom: 22.82%;
-
-}
+    border-radius: 4px;
+  }
